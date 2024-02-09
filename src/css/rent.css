@@ -1,0 +1,30 @@
+.rent-container {}
+
+.rent-img {}
+
+.rent-form {}
+
+.rent-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+.rent-field {}
+
+.rent-label-name {}
+
+.rent-input-name {}
+
+.rent-textarea {}
+
+.rent-btn {
+    border-radius: 15px;
+    padding: 14px 44px;
+    width: 122px;
+    height: 46px;
+    background: #1b414b;
+}
