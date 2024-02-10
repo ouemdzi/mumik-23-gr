@@ -56,13 +56,3 @@
   flex-direction: column;
   gap: 8px;
 }
->>>>>>> Stashed changes
-=======
-
-@media (min-width: 768px) {
-  .reviews-list {
-    flex-direction: row;
-    gap: 26px;
-  }
-}
->>>>>>> Stashed changes
