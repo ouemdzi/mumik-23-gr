@@ -13,3 +13,19 @@
 @import url('./rent.css');
 @import url('./reviews.css');
 @import url('./footer.css');
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 768px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    min-width: 1280px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    min-width: 1440px;
+  }
+}
