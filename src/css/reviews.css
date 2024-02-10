@@ -11,10 +11,6 @@
   padding-bottom: 40px;
 }
 .reviews-list {
-<<<<<<< Updated upstream
-=======
-  margin: 0px auto;
->>>>>>> Stashed changes
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -47,11 +43,7 @@
   letter-spacing: -0.02em;
   text-align: center;
 }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-
-.reviews-list {
+<<<<<<< Updated upstream <<<<<<< Updated upstream ======= .reviews-list {
   display: flex;
   flex-direction: column;
   gap: 8px;
