@@ -1,31 +1,50 @@
 .reviews-head {
-  padding-bottom: 25px;
+  margin: 0 auto 25px auto;
+  padding: 0px 0px;
 }
 .reviews-text {
+  max-width: 335px;
   color: #fbfbfb;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17em;
   letter-spacing: -0.02em;
   text-align: center;
-  padding-bottom: 40px;
+  margin: 0 auto 40px auto;
 }
 .reviews-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 80px;
 }
 .reviews-item {
   background-color: #fbfbfb;
-  width: 335px;
-  height: 282px;
+  max-width: 335px;
+  min-height: 282px;
   border-radius: 24px;
   padding: 32px 8px;
 }
-.reviews-img {
+.reviews-img-container {
+  width: 56px;
+  height: 56px;
+  border-radius: 72%;
   margin: 0 auto;
   margin-bottom: 24px;
+  position: relative;
+  overflow: hidden;
 }
+
+.reviews-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .reviews-item-head {
   color: #040306;
   font-size: 18px;
@@ -33,7 +52,7 @@
   line-height: 1.1em;
   letter-spacing: -0.02em;
   text-align: center;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .reviews-item-text {
   color: rgba(4, 3, 6, 0.4);
@@ -42,4 +61,71 @@
   line-height: 1.4em;
   letter-spacing: -0.02em;
   text-align: center;
+}
+
+@media (max-width: 767px) {
+  .visually-hidden_max-width_767,
+  .visually-hidden_max-width_1279 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+}
+@media (max-width: 1279px) {
+  .visually-hidden_max-width_1279 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .reviews-text {
+    max-width: 571px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.19em;
+  }
+
+  .reviews-list {
+    flex-direction: row;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+  }
+
+  .reviews-item {
+    flex-basis: calc((100% - 32px) / 2);
+  }
+}
+
+@media (min-width: 1280px) {
+  .reviews-head {
+    max-width: 854px;
+    margin: 0 auto 25px auto;
+  }
+
+  .reviews-list {
+    gap: 32px;
+  }
+
+  .reviews-item {
+    max-width: 376px;
+    padding: 32px 28px;
+    flex-basis: calc((100% - 26px * 2) / 3);
+  }
 }
