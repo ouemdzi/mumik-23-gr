@@ -31,7 +31,7 @@
   border-bottom: 1px solid rgba(4, 3, 6, 0.1);
   align-items: center;
 }
-.heads_item_list_card:nth-child(1) {
+.name_yacht {
   color: #1b414b;
   font-family: Inter;
   font-size: 14px;
@@ -46,7 +46,7 @@
   max-width: 157px;
   height: 19px;
 }
-.heads_item_list_card:nth-child(2) {
+.class_yacht {
   color: #040306;
   font-family: Inter;
   font-size: 12px;
@@ -121,11 +121,11 @@
   .block-button {
     padding: 50px 0 75px 0;
   }
-  .heads_item_list_card :nth-child(1) {
+  .name_yacht {
     font-size: 16px;
     line-height: 1.2;
   }
-  .heads_item_list_card :nth-child(2) {
+  .class_yacht {
     font-size: 13px;
     font-weight: 400;
     line-height: 1.18;
