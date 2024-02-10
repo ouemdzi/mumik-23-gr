@@ -31,12 +31,12 @@
   border-bottom: 1px solid rgba(4, 3, 6, 0.1);
   align-items: center;
 }
-.heads_item_list_card :nth-child(1) {
+.heads_item_list_card:nth-child(1) {
   color: #1b414b;
   font-family: Inter;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.18;
   letter-spacing: -0.05em;
   text-align: left;
   text-wrap: nowrap;
@@ -46,7 +46,7 @@
   max-width: 157px;
   height: 19px;
 }
-.heads_item_list_card :nth-child(2) {
+.heads_item_list_card:nth-child(2) {
   color: #040306;
   font-family: Inter;
   font-size: 12px;
@@ -102,4 +102,54 @@
 .button_our_yachts:hover {
   background-color: rgb(251, 251, 251);
   color: rgb(27, 65, 75);
+}
+
+@media (min-width: 768px) {
+  .item_list_card:nth-child(2) {
+    display: flex;
+  }
+  .head_of_sections {
+    padding: 75px 35px;
+    font-size: 48px;
+  }
+  .list_card {
+    gap: 32px;
+  }
+  .item_list_card {
+    max-width: 336px;
+  }
+  .block-button {
+    padding: 50px 0 75px 0;
+  }
+  .heads_item_list_card :nth-child(1) {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .heads_item_list_card :nth-child(2) {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.18;
+  }
+}
+@media (min-width: 1280px) {
+  .item_list_card:nth-child(3) {
+    display: flex;
+  }
+  .head_of_sections {
+    padding: 75px 250px;
+  }
+  .list_card {
+    gap: 25px;
+  }
+  .item_list_card {
+    max-width: 377px;
+  }
+}
+@media (min-width: 1280px) {
+  .list_card {
+    gap: 32px;
+  }
+  .item_list_card {
+    max-width: 396px;
+  }
 }
