@@ -81,6 +81,7 @@
     .about-box {
         width: 704px;
         height: 675px;
+        padding-bottom: 75px;
     }
 
     .img-about {
@@ -90,6 +91,11 @@
 }
 
 @media (min-width: 1280px) {
+
+    .container {
+        max-width: 1280px;
+    }
+
     .about-title {
         width: 537px;
         padding: 0;
@@ -113,17 +119,22 @@
     .about-text {
         display: flex;
         padding: 50px 50px 100px 50px;
+        gap: 189px;
     }
 
     .text {
         width: 354px;
-        margin-left: 189px;
+        /* margin-left: 189px; */
     }
 
     .img-about {
         width: 1180px;
         height: 470px;
-        border-radius: 54px;
+        border-radius: 24px;
         padding: 0;
+    }
+
+    .picture {
+        display: block;
     }
 }
