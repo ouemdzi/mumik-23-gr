@@ -1,24 +1,29 @@
 <section class="rent" id="rent">
         <div class="rent-container container">
-            <img class="rent-img" src="" alt="" />
-            <form class="rent-form">
+            <div class="rent-filling-form">
                 <h2 class="rent-title">Rent a yacht now</h2>
+            <form class="rent-form">
                 <div class="rent-field">
-                    <label class="rent-label-name" for="name">Full Name</label>
-                    <input class="rent-input-name" type="text" id="name" />
+                    <label class="rent-label-name" for="name"></label>
+                    <input class="rent-input-name" name="user-name" type="text" required id="name" placeholder="Full Name"/>
                 </div>
                 <div class="rent-field">
-                    <label class="rent-label-name" for="email">Email</label>
-                    <input class="rent-input-name" type="text" id="email" />
+                    <label class="rent-label-name" for="email"></label>
+                    <input class="rent-input-name" name="user-email" type="email" required id="email" placeholder="Email"/>
                 </div>
                 <div class="rent-field">
-                    <label class="rent-label-name" for="phone">Phone number</label>
-                    <input class="rent-input-name" type="text" id="phone" />
+                    <label class="rent-label-name" for="phone"></label>
+                    <input class="rent-input-name" name="user-phone" type="tel" required id="phone" placeholder="Phone number"/>
                 </div>
                 <div class="rent-field">
-                    <textarea class="rent-textarea" type="text" id="name">Comment</textarea>
+                    <textarea class="rent-textarea" name="name" type="text" id="name" placeholder="Comment"></textarea>
                 </div>
-                <button class="rent-btn">Send</button>
+                <button class="rent-btn" type="submit">Send</button>
             </form>
+            </div>
+            <div class="rent-picture">
+                <img class="rent-img" srcset="./img/img-rent/jacht-x1.jpg, ./img/img-rent/jach-x2"
+                    src="./img/img-rent/jacht-x1.jpg" alt="jacht" width="658" height="534" />
+            </div>
         </div>
     </section>
