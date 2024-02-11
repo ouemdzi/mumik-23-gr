@@ -1,13 +1,15 @@
 /* ++++++++++++OUR_YACHTS++++++++++ */
 
 .head_of_sections {
-  padding: 40px 8px;
+  padding: 40px 0;
   color: rgb(251, 251, 251);
   font-size: 28px;
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
+  margin: 0 auto;
+  width: 319px;
 }
 .list_card {
   display: flex;
@@ -108,8 +110,9 @@
     display: flex;
   }
   .head_of_sections {
-    padding: 75px 35px;
+    padding: 75px 0;
     font-size: 48px;
+    width: 645px;
   }
   .list_card {
     gap: 32px;
@@ -135,7 +138,7 @@
     display: flex;
   }
   .head_of_sections {
-    padding: 75px 250px;
+    width: 714px;
   }
   .list_card {
     gap: 25px;
