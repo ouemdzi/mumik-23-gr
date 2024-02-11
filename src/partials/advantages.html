@@ -48,26 +48,29 @@
           <div class="advantages-block-img">
             <picture>
               <source
-                srcset="../img/img-advantages/img-advantage-1x-phone.jpg 1x"
-                media="(max-width: 767px)"
+                srcset="
+                  ./img/img-advantages/img-advantage-1x-laptop.jpg 1x,
+                  ./img/img-advantages/img-advantage-2x-laptop.jpg 2x
+                "
+                media="(min-width: 1280px)"
               />
               <source
                 srcset="
-                  ../img/img-advantages/img-advantage-1x-tablet.jpg 1x,
-                  ../img/img-advantages/img-advantage-2x-tablet.jpg 2x
+                  ./img/img-advantages/img-advantage-1x-tablet.jpg 1x,
+                  ./img/img-advantages/img-advantage-2x-tablet.jpg 2x
                 "
                 media="(min-width: 768px)"
               />
               <source
-                srcset="
-                  ../img/img-advantages/img-advantage-1x-laptop.jpg 1x,
-                  ../img/img-advantages/img-advantage-2x-laptop.jpg 2x
-                "
-                media="(min-width: 1280px)"
+                srcset="./img/img-advantages/img-advantage-1x-phone.jpg 1x"
+                media="(max-width: 767px)"
               />
               <img
                 class="advantages-img"
-                src="/img/img-advantages/img-advantage-1x-tablet.jpg"
+                src="./img/img-advantages/img-advantage-1x-tablet.jpg"
+                alt="photo"
+                width="335"
+                height="424"
               />
             </picture>
           </div>
