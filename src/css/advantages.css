@@ -12,6 +12,11 @@
     overflow: hidden;
 }
 
+.advantages {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .advantage-container {
     display: flex;
     align-items: center;
@@ -84,6 +89,11 @@
 @media screen and (min-width: 768px) {
     .container {
         min-width: 768px;
+    }
+
+    .advantages {
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
 
     .advantages-box {
