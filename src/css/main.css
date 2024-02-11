@@ -17,6 +17,8 @@
 @media (min-width: 768px) {
   .container {
     min-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
 }
 @media (min-width: 1280px) {
