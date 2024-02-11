@@ -1,4 +1,6 @@
-.about {}
+.about {
+    padding-bottom: 75px;
+}
 
 .container {
     padding: 0;
@@ -48,7 +50,7 @@
 .img-about {
     width: 335px;
     height: 395px;
-    border-radius: 24px;
+    border-radius: 54px;
     padding-top: 40px;
 }
 
@@ -90,23 +92,38 @@
 @media (min-width: 1280px) {
     .about-title {
         width: 537px;
-        /* padding: 50px 189px 66px 50px; */
+        padding: 0;
     }
 
     .about-box {
         width: 1180px;
         height: 675px;
+
     }
 
-    .about-subtitle {}
+    .about-subtitle {
+        padding: 0;
+    }
+
+    .about-sub {
+        padding: 0;
+        padding-top: 20px;
+    }
 
     .about-text {
-        /* position: absolute; */
+        display: flex;
+        padding: 50px 50px 100px 50px;
+    }
+
+    .text {
+        width: 354px;
+        margin-left: 189px;
     }
 
     .img-about {
         width: 1180px;
         height: 470px;
-        border-radius: 0 24px 0 0;
+        border-radius: 54px;
+        padding: 0;
     }
 }
