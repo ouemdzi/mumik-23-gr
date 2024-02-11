@@ -51,7 +51,7 @@
     width: 335px;
     height: 395px;
     border-radius: 54px;
-    padding-top: 40px;
+    margin-top: 40px;
 }
 
 @media (min-width: 768px) {
