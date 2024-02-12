@@ -85,6 +85,18 @@
 
 /* *******************MOBILE******************* */
 @media screen and (min-width: 375px) {
+    @media screen and (min-width:375px) {
+        .hero-h {
+            width: 335px;
+        }
+    
+        .hero-p {
+            width: 335px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+    }
 }
 
 /* *****************TABLET********************* */
