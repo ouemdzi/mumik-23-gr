@@ -87,6 +87,7 @@
   .about-box {
     width: 1180px;
     height: 675px;
+    padding: 0;
   }
 
   .about-subtitle {
