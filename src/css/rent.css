@@ -113,7 +113,6 @@
 @media (min-width: 768px) {
   .rent-container {
     padding-bottom: 150px;
-    gap: 100px;
   }
 
   .rent-filling-form {
