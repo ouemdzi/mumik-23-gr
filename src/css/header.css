@@ -259,6 +259,7 @@
   .page-header {
     position: fixed;
     left: 85px;
+    z-index: 2;
   }
 
   .menu-item {
