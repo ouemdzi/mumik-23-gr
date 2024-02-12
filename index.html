@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/mumik-23-gr/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/mumik-23-gr/assets/index-dc74b0ca.css">
+    <link rel="stylesheet" href="/mumik-23-gr/assets/index-3a3392c4.css">
   </head>
   <body>
     <header class="page-header">
@@ -409,34 +409,78 @@
 </section>
 
     <section class="rent" id="rent">
-        <div class="rent-container container">
-            <div class="rent-filling-form">
-                <h2 class="rent-title">Rent a yacht now</h2>
-            <form class="rent-form">
-                <div class="rent-field">
-                    <label class="rent-label-name" for="name"></label>
-                    <input class="rent-input-name" name="user-name" type="text" required id="name" placeholder="Full Name"/>
-                </div>
-                <div class="rent-field">
-                    <label class="rent-label-name" for="email"></label>
-                    <input class="rent-input-name" name="user-email" type="email" required id="email" placeholder="Email"/>
-                </div>
-                <div class="rent-field">
-                    <label class="rent-label-name" for="phone"></label>
-                    <input class="rent-input-name" name="user-phone" type="tel" required id="phone" placeholder="Phone number"/>
-                </div>
-                <div class="rent-field">
-                    <textarea class="rent-textarea" name="name" type="text" id="name" placeholder="Comment"></textarea>
-                </div>
-                <button class="rent-btn" type="submit">Send</button>
-            </form>
-            </div>
-            <div class="rent-picture">
-                <img class="rent-img" srcset="./img/img-rent/jacht-x1.jpg, ./img/img-rent/jach-x2"
-                    src="/mumik-23-gr/assets/jacht-x1-1ddb74f1.jpg" alt="jacht" width="658" height="534" />
-            </div>
+  <div class="rent-container container">
+    <div class="rent-filling-form">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form class="rent-form">
+        <div class="rent-field">
+          <label class="rent-label-name" for="name"></label>
+          <input
+            class="rent-input-name"
+            name="user-name"
+            type="text"
+            required
+            id="name"
+            placeholder="Full Name"
+          />
         </div>
-    </section>
+        <div class="rent-field">
+          <label class="rent-label-name" for="email"></label>
+          <input
+            class="rent-input-name"
+            name="user-email"
+            type="email"
+            required
+            id="email"
+            placeholder="Email"
+          />
+        </div>
+        <div class="rent-field">
+          <label class="rent-label-name" for="phone"></label>
+          <input
+            class="rent-input-name"
+            name="user-phone"
+            type="tel"
+            required
+            id="phone"
+            placeholder="Phone number"
+          />
+        </div>
+        <div class="rent-field">
+          <textarea
+            class="rent-textarea"
+            name="name"
+            type="text"
+            id="name"
+            placeholder="Comment"
+          ></textarea>
+        </div>
+        <button class="rent-btn" type="submit">Send</button>
+      </form>
+    </div>
+    <div class="rent-picture">
+      <picture>
+        <source
+          media="(min-width:768px)"
+          srcset="./img/ivan-tab-1x.jpg 1x, ./img/ivan-tab-2x.jpg 2x"
+        />
+        <source
+          media="(min-width:1280px)"
+          srcset="./img/ivan-desc-1x.jpg 1x, ./img/ivan-desc-2x.jpg 2x"
+        />
+        <img
+          class="rent-img"
+          srcset="./img/ivan-mob-1x.jpg 1x, ./img/ivan-mob-2x.jpg 2x"
+          width="335"
+          height="412"
+          src="./images/mark.jpg"
+          alt="yacht in the sea"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
     <section class="reviews-section">
   <div class="container">
     <h2 class="head_of_sections reviews-head">
