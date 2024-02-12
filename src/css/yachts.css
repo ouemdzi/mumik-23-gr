@@ -9,7 +9,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   margin: 0 auto;
-  width: 319px;
+  max-width: 319px;
 }
 .list_card {
   display: flex;
