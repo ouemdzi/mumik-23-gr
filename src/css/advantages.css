@@ -80,11 +80,7 @@
 /****************МЕДІА****************/
 
 /*****? Tablet ?*****/
-@media screen and (min-width: 768px) {
-    /* .container {
-        min-width: 768px;
-    } */
-
+@media screen and (min-width: 768px) {   
     .advantages {
         padding-top: 75px;
         padding-bottom: 75px;
