@@ -203,9 +203,6 @@
 
 /*#region media*/
 @media screen and (min-width: 768px) {
-  .container {
-    min-width: 768px;
-  }
   .menu-item {
     display: flex;
     gap: 4px;
@@ -233,9 +230,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    min-width: 1280px;
-  }
   .menu-item {
     display: flex;
     gap: 4px;
@@ -262,9 +256,11 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    min-width: 1440px;
+  .page-header {
+    position: fixed;
+    left: 85px;
   }
+
   .menu-item {
     display: flex;
     gap: 4px;

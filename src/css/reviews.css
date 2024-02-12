@@ -11,6 +11,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   margin: 0 auto 40px auto;
+  opacity: 0.4;
 }
 .reviews-list {
   display: flex;

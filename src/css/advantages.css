@@ -1,151 +1,147 @@
 /**Правило для захованого заголовку advantades **/
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .advantages {
-    padding-top: 40px;
-    padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .advantage-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .advantages-box {
-    background-color: #1B414B;
-    border-radius: 24px;
-    padding: 80px 20px;
-    margin-bottom: 20px;
+  background-color: #1b414b;
+  border-radius: 24px;
+  padding: 80px 20px;
+  margin-bottom: 20px;
 }
 
 .advantages-list-item {
-    width: 295px;
-    margin-bottom: 40px;
+  width: 295px;
+  margin-bottom: 40px;
 }
 
 .advantages-list-item:last-child {
-    margin-bottom: 0;
-} 
+  margin-bottom: 0;
+}
 
 .advantages-list-titel {
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 1;
-    letter-spacing: -0.05em;
-    color: #fbfbfb;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #fbfbfb;
 }
 
 .advantages-list-titel::after {
-    border-radius: 18px;
-    width: 295px;
-    height: 2px;
-    background: rgba(251, 251, 251, 0.1);
-    content: "";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 18px;
-    margin-bottom: 18px;
+  border-radius: 18px;
+  width: 295px;
+  height: 2px;
+  background: rgba(251, 251, 251, 0.1);
+  content: '';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 
 .advantages-list-paragraph {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: -0.02em;
-    color: #fbfbfb;
-    opacity: 0.8;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  opacity: 0.8;
 }
 
 .advantages-img {
-    border-radius: 24px;
+  border-radius: 24px;
 }
-
 
 /****************МЕДІА****************/
 
 /*****? Tablet ?*****/
-@media screen and (min-width: 768px) {   
-    .advantages {
-        padding-top: 75px;
-        padding-bottom: 75px;
-    }
+@media screen and (min-width: 768px) {
+  .advantages {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
 
-    .advantages-box {
-        width: 704px;
-        padding: 90px 0px;
-    }
+  .advantages-box {
+    width: 704px;
+    padding: 90px 0px;
+  }
 
-    .ordered-advantages-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 44px 32px;
-    }
+  .ordered-advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 44px 32px;
+  }
 
-    .advantages-list-item {
-        margin-bottom: 0;
-    }
+  .advantages-list-item {
+    margin-bottom: 0;
+  }
 
-    .advantages-list-titel {
-        font-family: "Inter", sans-serif;
-        font-weight: 500;
-        font-size: 32px;
-        line-height: 1;
-        letter-spacing: -0.05em;
-        color: #fbfbfb;
-    }
+  .advantages-list-titel {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #fbfbfb;
+  }
 
-    .advantages-list-paragraph {
-        font-size: 13px;
-        line-height: 1.15;
-    }
+  .advantages-list-paragraph {
+    font-size: 13px;
+    line-height: 1.15;
+  }
 
-    .break {
-        display: none;
-    }
+  .break {
+    display: none;
+  }
 
-    .advantages-img {
-            width: 704px;
-            height: 424px;
-        }
-} 
-
+  .advantages-img {
+    width: 704px;
+    height: 424px;
+  }
+}
 
 /*****? Desktop ?*****/
 @media screen and (min-width: 1280px) {
-    .advantage-container {
-        display: flex;
-        flex-direction: row;
-        gap: 32px;
-    }
+  .advantage-container {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding-bottom: 150px;
+  }
 
-    .advantages-box {
-        width: 716px;
-        margin-bottom: 0px;
-    }
+  .advantages-box {
+    width: 716px;
+    margin-bottom: 0px;
+  }
 
-    .advantages-img {
-        width: 432px;
-        height: 424px;
-    }
+  .advantages-img {
+    width: 432px;
+    height: 424px;
+  }
 }
 /****************МЕДІА-КІНЕЦЬ****************/
-
-
-
