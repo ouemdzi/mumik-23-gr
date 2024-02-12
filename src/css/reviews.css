@@ -1,3 +1,8 @@
+.reviews-section {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
 .reviews-head {
   margin: 0 auto 25px auto;
   padding: 0px 0px;
@@ -18,7 +23,7 @@
   flex-direction: column;
   gap: 24px;
   justify-content: center;
-  margin-bottom: 80px;
+  align-items: center;
 }
 .reviews-item {
   background-color: #fbfbfb;
@@ -95,6 +100,11 @@
 }
 
 @media (min-width: 768px) {
+  .reviews-section {
+    padding-top: 75px;
+    padding-bottom: 150px;
+  }
+
   .reviews-text {
     max-width: 571px;
     font-size: 14px;
@@ -106,7 +116,6 @@
     flex-direction: row;
     gap: 32px;
     flex-wrap: wrap;
-    margin-bottom: 150px;
   }
 
   .reviews-item {
