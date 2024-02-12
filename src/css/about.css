@@ -3,8 +3,11 @@
 }
 
 .about-box {
+  /* width: 375px; */
+  height: 675px;
   border-radius: 24px;
   background-color: #fbfbfb;
+  padding: 0;
 }
 
 .about-title {
