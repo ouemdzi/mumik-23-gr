@@ -1,6 +1,9 @@
 .rent-container {
   padding-top: 40px;
   padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 /* .rent { */
@@ -109,8 +112,8 @@
 
 @media (min-width: 768px) {
   .rent-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 150px;
+    gap: 100px;
   }
 
   .rent-filling-form {
@@ -160,5 +163,13 @@
     font-size: 18px;
     line-height: 1.1;
     letter-spacing: -0.02em;
+  }
+}
+
+@media (min-width: 1280px) {
+  .rent-container {
+    flex-direction: row;
+    gap: 50px;
+    padding-bottom: 150px;
   }
 }
