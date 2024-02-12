@@ -124,6 +124,10 @@
 }
 
 @media (min-width: 1280px) {
+  .reviews-section {
+    padding-top: 0;
+  }
+
   .reviews-head {
     max-width: 854px;
     margin: 0 auto 25px auto;
