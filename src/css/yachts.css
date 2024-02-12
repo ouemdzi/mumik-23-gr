@@ -16,7 +16,7 @@
   justify-content: center;
 }
 .item_list_card {
-  max-width: 334px;
+  max-width: 335px;
   padding: 16px;
   background-color: rgb(251, 251, 251);
   border-radius: 24px;
@@ -147,7 +147,7 @@
     max-width: 377px;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1440px) {
   .list_card {
     gap: 32px;
   }
