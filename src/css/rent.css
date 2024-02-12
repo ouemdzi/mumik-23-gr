@@ -104,6 +104,7 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
 }
+
 .rent-btn:hover,
 .rent-btn:focus {
   background-color: #fbfbfb;
@@ -118,6 +119,8 @@
 
   .rent-filling-form {
     margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .rent-title {
