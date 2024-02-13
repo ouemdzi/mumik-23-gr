@@ -1,5 +1,6 @@
 .rent {
-  padding-bottom: 40px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .rent-container {
@@ -110,10 +111,13 @@
 }
 
 @media (min-width: 768px) {
+<<<<<<< Updated upstream
   .rent-container {
     padding-bottom: 75px;
   }
 
+=======
+>>>>>>> Stashed changes
   .rent-filling-form {
     margin-bottom: 100px;
     margin-left: auto;

@@ -1,6 +1,6 @@
 .reviews-section {
-  padding-top: 40px;
-  padding-bottom: 80px;
+  padding-top: 75px;
+  padding-bottom: 150px;
 }
 
 .head_of_sections-reviews {
@@ -107,10 +107,6 @@
 }
 
 @media (min-width: 768px) {
-  .reviews-section {
-    padding-top: 75px;
-    padding-bottom: 150px;
-  }
   .head_of_sections-reviews {
     font-size: 48px;
     width: 704px;
@@ -135,10 +131,6 @@
 }
 
 @media (min-width: 1280px) {
-  .reviews-section {
-    padding-top: 0px;
-  }
-
   .reviews-head {
     max-width: 854px;
   }

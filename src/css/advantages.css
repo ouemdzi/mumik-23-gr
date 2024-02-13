@@ -13,8 +13,8 @@
 }
 
 .advantages {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .advantage-container {
@@ -80,11 +80,6 @@
 
 /*****? Tablet ?*****/
 @media screen and (min-width: 768px) {
-  .advantages-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
-  }
-
   .advantages-box {
     width: 704px;
     padding: 90px 0px;
