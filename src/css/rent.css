@@ -137,9 +137,10 @@
     font-size: 14px;
   }
 
-  /* .rent-picture {
-       
-    } */
+  .rent-picture {
+    width: 704px;
+    height: 534px;
+  }
 
   .rent-img {
     width: 768px;
@@ -188,5 +189,10 @@
     line-height: 1.1;
     letter-spacing: -0.02em;
     font-size: 18px;
+  }
+
+  .rent-picture {
+    width: 658px;
+    height: 536px;
   }
 }
