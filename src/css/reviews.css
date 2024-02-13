@@ -113,7 +113,7 @@
   }
   .head_of_sections-reviews {
     font-size: 48px;
-    width: 704px;
+    width: 854px;
   }
 
   .reviews-text {
@@ -135,10 +135,6 @@
 }
 
 @media (min-width: 1280px) {
-  .reviews-section {
-    padding-top: 0px;
-  }
-
   .reviews-head {
     max-width: 854px;
   }
