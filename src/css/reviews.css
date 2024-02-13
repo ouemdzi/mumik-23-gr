@@ -135,8 +135,8 @@
 }
 
 @media (min-width: 1280px) {
-  .reviews-head {
-    max-width: 854px;
+  .head_of_sections-reviews {
+    width: 854px;
   }
 
   .reviews-list {

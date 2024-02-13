@@ -51,7 +51,7 @@
 @media (min-width: 768px) {
   .about-title {
     font-size: 48px;
-    padding: 50px 136px 50px 32px;
+    /*padding: 50px 136px 50px 32px;*/
   }
 
   .about-subtitle {
