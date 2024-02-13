@@ -47,8 +47,8 @@
   display: none;
   gap: 8px;
 }
-.svgicon {
-  fill: #1b414b;
+.svgiconheader {
+  stroke: #1b414b;
 }
 .link_li {
   display: flex;
