@@ -30,7 +30,9 @@
   flex-wrap: wrap;
   flex-direction: row;
 }
-
+.footer-nav > :last-child {
+  flex-basis: 100%;
+}
 .footer-nav-list {
   margin: 0 auto;
   display: flex;
