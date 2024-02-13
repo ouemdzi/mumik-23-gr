@@ -47,9 +47,10 @@
   display: none;
   gap: 8px;
 }
-.svgicon {
-  fill: #1b414b;
+.svgiconheader {
+  stroke: #1b414b;
 }
+
 .link_li {
   display: flex;
   align-items: center;
@@ -205,9 +206,6 @@
   height: 100%;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.svgicon-mob {
-  fill: #fff;
 }
 
 /*#endregion mobile menu*/
