@@ -3,10 +3,17 @@
   padding-bottom: 80px;
 }
 
-.reviews-head {
+.head_of_sections-reviews {
+  color: rgb(251, 251, 251);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
   margin: 0 auto 25px auto;
-  padding: 0px 0px;
+  width: 335px;
 }
+
 .reviews-text {
   max-width: 335px;
   color: #fbfbfb;
@@ -104,6 +111,10 @@
     padding-top: 75px;
     padding-bottom: 150px;
   }
+  .head_of_sections-reviews {
+    font-size: 48px;
+    width: 704px;
+  }
 
   .reviews-text {
     max-width: 571px;
@@ -125,12 +136,11 @@
 
 @media (min-width: 1280px) {
   .reviews-section {
-    padding-top: 0;
+    padding-top: 0px;
   }
 
   .reviews-head {
     max-width: 854px;
-    margin: 0 auto 25px auto;
   }
 
   .reviews-list {
