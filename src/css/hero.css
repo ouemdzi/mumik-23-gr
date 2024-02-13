@@ -36,8 +36,8 @@
 
 .btn-hero {
   border-radius: 15px;
-  background: #1b414b;
-  font-family: Roboto, sans-serif;
+  background-color: #1b414b;
+  font-family: inherit;
   width: 141px;
   padding: 14px 32px;
   border: none;
@@ -49,14 +49,6 @@
   margin: 0 auto;
   display: block;
   height: 46px;
-}
-
-.btn-hero:hover,
-.btn-hero:focus {
-  background: #fbfbfb;
-}
-
-.hero-a {
   text-decoration: none;
   color: #fbfbfb;
   font-size: 14px;
@@ -64,6 +56,12 @@
   font-weight: 500;
   line-height: 129%;
   letter-spacing: -0.02em;
+}
+
+.btn-hero:hover,
+.btn-hero:focus {
+  background: #fbfbfb;
+  color: #1b414b;
 }
 
 .btn-hero:hover .hero-a,
@@ -85,18 +83,17 @@
 
 /* *******************MOBILE******************* */
 @media screen and (min-width: 375px) {
-    @media screen and (min-width:375px) {
-        .hero-h {
-            width: 335px;
-        }
-    
-        .hero-p {
-            width: 335px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    
+  @media screen and (min-width: 375px) {
+    .hero-h {
+      width: 335px;
     }
+
+    .hero-p {
+      width: 335px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 
 /* *****************TABLET********************* */
