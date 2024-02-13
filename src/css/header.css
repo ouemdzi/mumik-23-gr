@@ -15,7 +15,6 @@
   background-color: #fff;
   border-radius: 8px;
   padding: 0 20px;
-  /* padding: 4px 28px; */
 }
 
 .menu-item {
@@ -41,14 +40,17 @@
   text-decoration: none;
   color: #1b414b;
   background-color: #fbfbfb;
+  margin: 21px 0;
 }
 
 .linkssocial {
   display: none;
   gap: 8px;
 }
+
 .svgiconheader {
   stroke: #1b414b;
+  margin-top: 5px;
 }
 .svgicon {
   fill: #1b414b;
