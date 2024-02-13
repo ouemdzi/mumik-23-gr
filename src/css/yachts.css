@@ -148,11 +148,4 @@
     max-width: 377px;
   }
 }
-@media (min-width: 1440px) {
-  .list_card {
-    gap: 32px;
-  }
-  .item_list_card {
-    max-width: 396px;
-  }
-}
+
