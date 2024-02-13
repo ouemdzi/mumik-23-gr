@@ -1,29 +1,84 @@
-<section class="rent" id="rent">
-        <div class="rent-container container">
-            <div class="rent-filling-form">
-                <h2 class="rent-title">Rent a yacht now</h2>
-            <form class="rent-form">
-                <div class="rent-field">
-                    <label class="rent-label-name" for="name"></label>
-                    <input class="rent-input-name" name="user-name" type="text" required id="name" placeholder="Full Name"/>
-                </div>
-                <div class="rent-field">
-                    <label class="rent-label-name" for="email"></label>
-                    <input class="rent-input-name" name="user-email" type="email" required id="email" placeholder="Email"/>
-                </div>
-                <div class="rent-field">
-                    <label class="rent-label-name" for="phone"></label>
-                    <input class="rent-input-name" name="user-phone" type="tel" required id="phone" placeholder="Phone number"/>
-                </div>
-                <div class="rent-field">
-                    <textarea class="rent-textarea" name="name" type="text" id="name" placeholder="Comment"></textarea>
-                </div>
-                <button class="rent-btn" type="submit">Send</button>
-            </form>
-            </div>
-            <div class="rent-picture">
-                <img class="rent-img" srcset="./img/img-rent/jacht-x1.jpg, ./img/img-rent/jach-x2"
-                    src="./img/img-rent/jacht-x1.jpg" alt="jacht" width="658" height="534" />
-            </div>
+<section class="rent container" id="rent">
+  <div class="rent-container">
+    <div class="rent-filling-form">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form class="rent-form">
+        <div class="rent-field">
+          <label class="rent-label-name" for="name"></label>
+          <input
+            class="rent-input-name"
+            name="user-name"
+            type="text"
+            required
+            id="name"
+            placeholder="Full Name"
+          />
         </div>
-    </section>
+        <div class="rent-field">
+          <label class="rent-label-name" for="email"></label>
+          <input
+            class="rent-input-name"
+            name="user-email"
+            type="email"
+            required
+            id="email"
+            placeholder="Email"
+          />
+        </div>
+        <div class="rent-field">
+          <label class="rent-label-name" for="phone"></label>
+          <input
+            class="rent-input-name"
+            name="user-phone"
+            type="tel"
+            required
+            id="phone"
+            placeholder="Phone number"
+          />
+        </div>
+        <div class="rent-field">
+          <textarea
+            class="rent-textarea"
+            name="name"
+            type="text"
+            id="name"
+            placeholder="Comment"
+          ></textarea>
+        </div>
+        <button class="rent-btn" type="submit">Send</button>
+      </form>
+    </div>
+    <div class="rent-picture">
+      <picture>
+        <source
+          media="(min-width:1280px)"
+          srcset="
+            ./img/img-rent/ivan-desc-1x.jpg 1x,
+            ./img/img-rent/ivan-desc-2x.jpg 2x
+          "
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="
+            ./img/img-rent/ivan-tab-1x.jpg 1x,
+            ./img/img-rent/ivan-tab-2x.jpg 2x
+          "
+        />
+        <source
+          media="(max-width:767px)"
+          srcset="
+            ./img/img-rent/ivan-mob-1x.jpg 1x,
+            ./img/img-rent/ivan-mob-2x.jpg 2x
+          "
+        />
+        <img
+          class="rent-img"
+          src="./img/img-rent/ivan-desc-1x.jpg"
+          alt="yacht in the sea"
+          width="658"
+          height="536"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
