@@ -11,7 +11,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   margin: 0 auto 25px auto;
-  width: 335px;
+  max-width: 335px;
 }
 
 .reviews-text {
@@ -126,7 +126,7 @@
   .reviews-list {
     flex-direction: row;
     gap: 32px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   .reviews-item {

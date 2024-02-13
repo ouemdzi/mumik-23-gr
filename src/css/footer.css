@@ -37,7 +37,7 @@
   margin: 0 auto;
   display: flex;
   gap: 4px;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 .footer-nav-item {
   border-radius: 8px;
