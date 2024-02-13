@@ -50,7 +50,9 @@
 .svgiconheader {
   stroke: #1b414b;
 }
-
+.svgicon {
+  fill: #1b414b;
+}
 .link_li {
   display: flex;
   align-items: center;
