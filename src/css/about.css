@@ -4,7 +4,6 @@
 
 .about-box {
   /* width: 375px; */
-  height: 675px;
   border-radius: 24px;
   background-color: #fbfbfb;
   padding: 0;
@@ -17,7 +16,7 @@
   line-height: 100%;
   letter-spacing: -0.02em;
   color: #1b414b;
-  padding: 40px 20px 0px 20px;
+  padding: 40px 20px 40px 20px;
 }
 
 .about-subtitle {
@@ -27,7 +26,8 @@
   line-height: 100%;
   letter-spacing: -0.02em;
   color: #1b414b;
-  padding: 40px 20px 0px 20px;
+  padding: 20px;
+  padding-top: 0;
 }
 
 .about-sub {
@@ -38,7 +38,8 @@
   letter-spacing: -0.02em;
   opacity: 0.4;
   color: #040306;
-  padding: 20px 20px 0px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .img-about {
@@ -51,12 +52,12 @@
 @media (min-width: 768px) {
   .about-title {
     font-size: 48px;
-    /*padding: 50px 136px 50px 32px;*/
+    padding-bottom: 50px;
   }
 
   .about-subtitle {
     font-size: 23px;
-    padding: 0px 283px 0px 32px;
+    padding: 0px 283px 20px 32px;
   }
 
   .about-sub {
@@ -95,7 +96,7 @@
 
   .about-sub {
     padding: 0;
-    padding-top: 20px;
+    margin-top: 20px;
   }
 
   .about-text {

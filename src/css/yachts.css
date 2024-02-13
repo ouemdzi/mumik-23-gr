@@ -86,7 +86,7 @@
 .block-button {
   display: flex;
   justify-content: center;
-  padding: 40px 0;
+  margin-top: 50px;
 }
 .button_our_yachts {
   padding: 14px 32px 14px 32px;
@@ -134,11 +134,17 @@
   }
 }
 @media (min-width: 1280px) {
+  .block-button {
+    padding: 0;
+  }
+
   .item_list_card:nth-child(3) {
     display: flex;
   }
   .head_of_sections {
-    padding: 230px 0 75px 0;
+    padding: 0;
+    margin-top: 225px;
+    margin-bottom: 75px;
     max-width: 714px;
   }
   .list_card {
@@ -148,4 +154,3 @@
     max-width: 377px;
   }
 }
-
