@@ -80,7 +80,7 @@
 
 /*****? Tablet ?*****/
 @media screen and (min-width: 768px) {
-  .advantages-container {
+  .advantages {
     padding-top: 75px;
     padding-bottom: 75px;
   }
@@ -128,10 +128,6 @@
 
 /*****? Desktop ?*****/
 @media screen and (min-width: 1280px) {
-  .advantages {
-    padding-bottom: 0;
-  }
-
   .advantage-container {
     display: flex;
     flex-direction: row;
