@@ -1,12 +1,12 @@
-.rent-container {
+.rent {
   padding-top: 40px;
   padding-bottom: 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
 }
 
-/* .rent { */
+.rent-container {
+  display: flex;
+  flex-direction: column;
+}
 
 /* .rent-picture {
 } */
@@ -112,8 +112,7 @@
 
 @media (min-width: 768px) {
   .rent-container {
-    padding-bottom: 150px;
-    gap: 100px;
+    padding-bottom: 75px;
   }
 
   .rent-filling-form {
@@ -174,4 +173,21 @@
     column-gap: 50px;
     padding-bottom: 150px;
   }
+
+  .rent-input-name {
+    height: 54px;
+    font-size: 14px;
+    line-height: 1.29;
+    }
+
+  .rent-btn {
+    border-radius: 15px;
+    padding: 18px 75px;
+    width: 194px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    font-size: 18px;
+    }
 }
