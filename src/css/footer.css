@@ -27,8 +27,12 @@
 .footer-nav {
   display: flex;
   margin-bottom: 80px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
-
+.footer-nav > :last-child {
+  flex-basis: 100%;
+}
 .footer-nav-list {
   display: flex;
   gap: 4px;
@@ -63,15 +67,18 @@
   color: #1b414b;
 }
 
-.footer-soc {
+/* .footer-soc {
   margin-bottom: 40px;
-}
+} */
 .footer-soc-list {
+  display: block;
   display: flex;
   gap: 8px;
   justify-content: center;
 }
-
+.footer-soc-list-cont {
+  display: block;
+}
 .footer-soc-link {
   height: 100%;
   border-radius: 50%;
@@ -88,7 +95,6 @@
 
 .footer-content {
   text-align: center;
-  display: flex;
 
   margin-bottom: 82px;
 }
@@ -104,6 +110,7 @@
   align-items: center;
 }
 .footer-copyright-container {
+  display: block;
 }
 .footer-copyright-list {
   display: flex;
@@ -133,16 +140,17 @@
 }
 /* ----------------768---------------- */
 @media (min-width: 768px) {
+  .footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .footer-container {
     max-width: 768px;
     margin: auto;
     padding: 50px 48px 20px 48px;
     display: flex;
-    gap: 0;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-items: flex-start;
   }
 
   .footer-logo {
@@ -156,14 +164,16 @@
   }
   .footer-nav-list {
     margin-right: 91px;
-    margin-bottom: 96px;
   }
   .footer-nav {
-    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 96px;
   }
   .footer-soc {
-    margin-right: 50px;
-    margin: 0;
+    margin-left: auto;
   }
 
   .footer-content {
@@ -184,6 +194,7 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 12px;
+
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-align: center;
@@ -191,28 +202,47 @@
     padding-top: 0;
   }
   .footer-copyright-container {
-    display: flex;
+    margin: 0 auto;
+  }
+  .footer-copyright-list {
+    gap: 32px;
   }
 }
 /* -----------1280------------- */
 @media (min-width: 1280px) {
+  .footer {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
   .footer-container {
     max-width: 1280px;
     padding: 50px 75px 20px 75px;
+    display: flex;
   }
-  .footer-title {
-  }
+
   .footer-logo {
     margin-right: 330px;
   }
   .footer-content {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 99px;
+  }
+  .footer-nav-list {
+    margin-right: 311px;
+  }
+  .footer-soc {
   }
   .footer-copyright {
     font-size: 14px;
   }
-  .footer-copyright-container {
+  .footer-title {
+    width: 693px;
+  }
+
+  .footer-copyright-cont {
+    display: block;
   }
   .footer-nav-list {
-    margin-right: 311px;
   }
 }
