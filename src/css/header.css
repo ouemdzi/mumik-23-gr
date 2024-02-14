@@ -68,6 +68,8 @@
   border: none;
   cursor: pointer;
   background-color: transparent;
+  display: flex;
+  justify-content: center;
 }
 .link_li:hover {
   background-color: #1b414b;
