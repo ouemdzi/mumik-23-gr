@@ -50,7 +50,7 @@
 
 .svgiconheader {
   stroke: #1b414b;
-  margin-top: 5px;
+  /* margin-top: 5px; */
 }
 .svgicon {
   fill: #1b414b;
