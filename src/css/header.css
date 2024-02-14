@@ -14,7 +14,7 @@
   justify-content: space-between;
   background-color: #fff;
   border-radius: 8px;
-  padding: 0 20px;
+  padding: 3px 20px;
 }
 
 .menu-item {
@@ -40,7 +40,7 @@
   text-decoration: none;
   color: #1b414b;
   background-color: #fbfbfb;
-  margin: 21px 0;
+  /* margin: 12.5px 0; */
 }
 
 .linkssocial {
@@ -62,11 +62,9 @@
   border-radius: 8px;
   background-color: rgba(27, 65, 75, 0.5);
 }
-.menu-item li:nth-child(1) {
-  background-color: #1b414b;
-}
+
 .menu-open-btn {
-  margin-left: auto;
+  /* margin-left: auto; */
   border: none;
   cursor: pointer;
   background-color: transparent;
@@ -127,10 +125,13 @@
 
 .mob-menu {
   position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+
   top: 0;
   background-color: #0e1823;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding-right: 20px;
   padding-top: 16px;
   padding-left: 20px;
@@ -139,7 +140,7 @@
   overflow: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 
   opacity: 0;
@@ -153,12 +154,17 @@
 }
 
 .menu-item-mob {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 30%;
   display: flex;
   flex-direction: column;
   row-gap: 4px;
   margin: 0 auto;
   margin-bottom: 24px;
 }
+
 .link_li-mob {
   display: flex;
   align-items: center;
@@ -198,6 +204,10 @@
 }
 
 .linkssocial-mob {
+  position: absolute;
+  bottom: 20%;
+  fill: #fff;
+  stroke: #fff;
   display: flex;
   gap: 8px;
 }
@@ -242,7 +252,7 @@
     display: flex;
   }
   .menu {
-    padding: 4px 28px;
+    padding: 3px 28px;
   }
   .page-header {
     width: 704px;
@@ -276,43 +286,7 @@
   .linkssocial {
     display: flex;
   }
-  .menu {
-    padding: 4px 28px;
-  }
-  .page-header {
-    width: 1080px;
-    top: 32px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1440px;
-    padding: 0 100px;
-  }
-  .menu-item {
-    display: flex;
-    gap: 4px;
-  }
-  .contacts-menu {
-    display: flex;
-  }
 
-  .menu-open-btn {
-    display: none;
-  }
-  .mob-menu {
-    display: none;
-  }
-  .logo {
-    font-size: 20px;
-    line-height: 1.21;
-  }
-  .linkssocial {
-    display: flex;
-  }
-  .menu {
-    padding: 4px 28px;
-  }
   .page-header {
     width: 1080px;
     top: 32px;
