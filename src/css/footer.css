@@ -164,6 +164,7 @@
   .footer-nav-list {
     margin-right: 91px;
     padding: 0;
+    margin-bottom: 0;
   }
   .footer-nav {
     display: flex;
