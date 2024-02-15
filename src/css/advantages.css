@@ -25,10 +25,13 @@
 }
 
 .advantages-box {
-    background-color: #1B414B;
+    background-color: #1b414b;
     border-radius: 24px;
-    padding: 80px 20px;
     margin-bottom: 20px;
+}
+
+.ordered-advantages-list {
+    padding: 80px 20px;
 }
 
 .advantages-list-item {
@@ -87,15 +90,16 @@
     }
 
     .advantages-box {
-        width: 704px;
-        padding: 90px 0px;
+    width: 704px;
+    margin-bottom: 32px;
     }
 
     .ordered-advantages-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 44px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 44px 32px;
+    padding: 90px 0px;
     }
 
     .advantages-list-item {
@@ -140,9 +144,15 @@
         margin-bottom: 0px;
     }
 
+    .ordered-advantages-list {
+    display: flex;
+    gap: 44px 50px;
+    padding: 90px 0px;
+    }
+
     .advantages-img {
-        width: 432px;
-        height: 424px;
+    width: 432px;
+    height: 424px;
     }
 }
 /****************МЕДІА-КІНЕЦЬ****************/
