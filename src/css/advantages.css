@@ -85,8 +85,8 @@
 /*****? Tablet ?*****/
 @media screen and (min-width: 768px) {   
     .advantages {
-        padding-top: 75px;
-        padding-bottom: 75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     }
 
     .advantages-box {
@@ -103,7 +103,8 @@
     }
 
     .advantages-list-item {
-        margin-bottom: 0;
+    width: 304px;
+    margin-bottom: 0;
     }
 
     .advantages-list-titel {
@@ -120,14 +121,10 @@
         line-height: 1.15;
     }
 
-    .break {
-        display: none;
-    }
-
     .advantages-img {
-            width: 704px;
-            height: 424px;
-        }
+        width: 704px;
+        height: 424px;
+    }
 } 
 
 
