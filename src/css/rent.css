@@ -1,0 +1,203 @@
+.rent {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.rent-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .rent-picture {
+} */
+
+.rent-filling-form {
+  margin-bottom: 80px;
+}
+
+.rent-img {
+  border-radius: 24px;
+}
+
+/* .rent-form {
+  
+} */
+
+.rent-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+/* .rent-field {
+
+} */
+
+/* .rent-label-name {} */
+
+.rent-input-name {
+  width: 100%;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  height: 42px;
+  margin-bottom: 18px;
+  background-color: transparent;
+  padding-left: 18px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  color: rgba(251, 251, 251, 0.4);
+  background-color: transparent;
+  outline: transparent;
+}
+
+.rent-input-name:focus {
+  border-color: #fbfbfb;
+}
+
+.rent-input-name:focus::placeholder {
+  color: #fbfbfb;
+}
+
+.rent-textarea {
+  width: 100%;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  height: 108px;
+  margin-bottom: 40px;
+  background-color: transparent;
+  color: #fbfbfb;
+  padding-top: 14px;
+  padding-left: 18px;
+  resize: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  color: rgba(251, 251, 251, 0.4);
+  background-color: transparent;
+  outline: transparent;
+}
+
+.rent-textarea:focus {
+  border-color: #fbfbfb;
+}
+
+.rent-textarea:focus::placeholder {
+  color: #fbfbfb;
+}
+
+.rent-btn {
+  border-radius: 15px;
+  padding: 14px 44px;
+  width: 122px;
+  height: 46px;
+  background: #1b414b;
+  border: none;
+  padding: 0;
+  line-height: 0;
+  color: #fbfbfb;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+.rent-btn:hover,
+.rent-btn:focus {
+  background-color: #fbfbfb;
+  color: #1b414b;
+}
+
+@media (min-width: 768px) {
+  .rent {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .rent-filling-form {
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rent-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 50px;
+  }
+
+  .rent-form {
+    width: 473px;
+  }
+
+  .rent-input-name {
+    font-size: 14px;
+  }
+
+  .rent-picture {
+    width: 704px;
+    height: 534px;
+  }
+
+  .rent-img {
+    width: 768px;
+    height: 534px;
+  }
+
+  .rent-textarea {
+    width: 100%;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    height: 108px;
+    margin-bottom: 50px;
+    font-size: 14px;
+  }
+
+  .rent-btn {
+    border-radius: 15px;
+    padding: 18px 75px;
+    width: 194px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+}
+
+@media (min-width: 1280px) {
+  .rent-container {
+    flex-direction: row-reverse;
+    column-gap: 50px;
+  }
+
+  .rent-input-name {
+    height: 54px;
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .rent-btn {
+    border-radius: 15px;
+    padding: 18px 75px;
+    width: 194px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    font-size: 18px;
+  }
+
+  .rent-picture {
+    width: 658px;
+    height: 536px;
+  }
+
+  .rent-filling-form {
+    margin-bottom: 0px;
+  }
+}
