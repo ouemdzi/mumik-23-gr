@@ -35,9 +35,8 @@
 }
 
 .advantages-list-item {
-  width: 295px;
-  margin-bottom: 40px;
-}
+    max-width: 295px;
+    margin-bottom: 40px;
 
 .advantages-list-item:last-child {
   margin-bottom: 0;
@@ -53,16 +52,16 @@
 }
 
 .advantages-list-titel::after {
-  border-radius: 18px;
-  width: 295px;
-  height: 2px;
-  background: rgba(251, 251, 251, 0.1);
-  content: '';
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 18px;
-  margin-bottom: 18px;
+    border-radius: 18px;
+    max-width: 295px;
+    height: 2px;
+    background: rgba(251, 251, 251, 0.1);
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 
 .advantages-list-paragraph {
@@ -82,11 +81,11 @@
 /****************МЕДІА****************/
 
 /*****? Tablet ?*****/
-@media screen and (min-width: 768px) {
-  .advantages {
+@media screen and (min-width: 768px) {   
+    .advantages {
     padding-top: 75px;
     padding-bottom: 75px;
-  }
+    }
 
   .advantages-box {
     width: 704px;
@@ -101,9 +100,11 @@
     padding: 90px 0px;
   }
 
-  .advantages-list-item {
+
+    .advantages-list-item {
+    width: 304px;
     margin-bottom: 0;
-  }
+    }
 
   .advantages-list-titel {
     font-family: 'Inter', sans-serif;
@@ -119,14 +120,12 @@
     line-height: 1.15;
   }
 
-  .break {
-    display: none;
-  }
 
-  .advantages-img {
-    width: 704px;
-    height: 424px;
-  }
+    .advantages-img {
+        width: 704px;
+        height: 424px;
+    }
+
 
   .advantages-list-item {
     margin-bottom: 0;
